@@ -1,0 +1,10 @@
+﻿@model PotteryListViewModel
+
+
+<h1>@Model.CurrentCategory</h1>
+<div class="row">
+    @foreach (var product in Model.PotteryProducts)
+    {
+        <partial name="_ProductCard" model="product"/>
+    }
+</div>
