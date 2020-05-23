@@ -23,12 +23,40 @@ namespace PotteryWebShop.Controllers
             _categoryRepository = categoryRepository;
         }
 
+        /*
         public ViewResult List()
         {
             var potteryProductViewModel = new PotteryListViewModel();
             potteryProductViewModel.PotteryProducts = _potteryRepository.AllPotteryProducts;
             potteryProductViewModel.CurrentCategory = "Kitchen Supplies";
             return View(potteryProductViewModel);
+        }
+        */
+
+        public ViewResult List(string category)
+        {
+            IEnumerable<PotteryProduct> potteryProducts;
+            string currentCategory;
+
+            if (string.IsNullOrEmpty(category))
+            {
+                potteryProducts = _potteryRepository.AllPotteryProducts.OrderBy(p => p.Id);
+                currentCategory = "All pottery products";
+            }
+            else
+            {
+                potteryProducts = _potteryRepository.AllPotteryProducts.Where(p => p.Category.CategoryName == category)
+                                                                       .OrderBy(p => p.Id);
+
+                currentCategory = _categoryRepository.AllCategories.FirstOrDefault(c => c.CategoryName == category)?.CategoryName;
+            }
+
+            
+            return View(new PotteryListViewModel
+            {
+                PotteryProducts = potteryProducts,
+                CurrentCategory = currentCategory
+            });
         }
 
         public IActionResult Details(int id)

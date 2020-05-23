@@ -8,6 +8,20 @@ a:link {
     color: ghostwhite;
 }
 
+.dropdown-menu {
+    background-color: #66cccc;
+}
+
+.container {
+    background-color: rgba(0, 0, 0, 0.25);
+    color: antiquewhite;
+}
+
+.table {
+    color: antiquewhite;
+    background-color: rgba(0, 0, 0, 0.25);
+}
+
 /* visited link */
 a:visited {
     color: antiquewhite;
@@ -15,13 +29,13 @@ a:visited {
 
 /* mouse over link */
 a:hover {
-    color: coral;
+    color: #fba1a1;
     text-decoration: none;
 }
 
 /* selected link */
 a:active {
-    color: coral;
+    color: #fba1a1;
     text-decoration: none;
 }
 
@@ -43,10 +57,8 @@ body {
 .card {
     max-width: 100%;
     width: 18rem;
-}
-
-.card-body {
-    background-color: #66cccc;
+    background-color: rgba(0, 0, 0, 0.25);
+    color: antiquewhite;
 }
 
 .carousel-item {
@@ -73,6 +85,10 @@ body {
     top: 0;
     left: 0;
     min-height: 400px;
+}
+
+#cart-status {
+    color: black;
 }
 
 .card-text {
@@ -114,6 +130,15 @@ footer {
 
 .navbar {
     background-image: none;
+    background-color: #66cccc;
+}
+
+.nav-link a {
+    color: black;
+}
+
+.nav-link a:hover {
+    color: antiquewhite;
 }
 
 .navbar-inverse {
@@ -123,13 +148,13 @@ footer {
 
 .nav.navbar-nav.navbar-right li a {
     color: white;
-    font-size: 1.2em;
+    font-size: 1.3em;
 }
 
 .navbar .nav > li > a {
     font-size: 1.2em;
     text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
-    color: white;
+    color: black;
 }
 
 .item img {

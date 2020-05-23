@@ -30,6 +30,12 @@ namespace PotteryWebShop
 
             services.AddScoped<IPotteryProductRepository, PotteryProductRepository>();
             services.AddScoped<ICategoryRepository, CategoryRepository>();
+            services.AddScoped<IOrderRepository, OrderRepository>();
+            services.AddScoped<ShoppingCart>(sp => ShoppingCart.GetCart(sp));
+
+            services.AddHttpContextAccessor();
+            services.AddSession();
+
             services.AddControllersWithViews()
                     .AddRazorRuntimeCompilation();
         }
@@ -45,6 +51,7 @@ namespace PotteryWebShop
             app.UseStatusCodePages();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
+            app.UseSession();
 
             app.UseRouting();
 

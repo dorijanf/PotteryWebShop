@@ -27,7 +27,7 @@ using PotteryWebShop.Models;
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"88ab3886911da9cef37f856b68c250b5e2e30597", @"/Views/PotteryProduct/List.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"0110601acd59103469e8039f07802dd47e1eaf41", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"1cab6331ad315750280e421ce8de3ea1624a639f", @"/Views/_ViewImports.cshtml")]
     public class Views_PotteryProduct_List : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<PotteryListViewModel>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("name", "_ProductCard", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);

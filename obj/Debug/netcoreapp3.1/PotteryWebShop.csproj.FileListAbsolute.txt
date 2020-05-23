@@ -414,7 +414,14 @@ D:\Programming\learning_dotnet\Introduction to ASP.NET\PotteryWebShop\PotteryWeb
 D:\Programming\learning_dotnet\Introduction to ASP.NET\PotteryWebShop\PotteryWebShop\bin\Debug\netcoreapp3.1\tr\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Programming\learning_dotnet\Introduction to ASP.NET\PotteryWebShop\PotteryWebShop\bin\Debug\netcoreapp3.1\zh-Hans\Microsoft.CodeAnalysis.Workspaces.resources.dll
 D:\Programming\learning_dotnet\Introduction to ASP.NET\PotteryWebShop\PotteryWebShop\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.CodeAnalysis.Workspaces.resources.dll
+D:\Programming\learning_dotnet\Introduction to ASP.NET\PotteryWebShop\PotteryWebShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Carousel.cshtml.g.cs
+D:\Programming\learning_dotnet\Introduction to ASP.NET\PotteryWebShop\PotteryWebShop\obj\Debug\netcoreapp3.1\Razor\Views\ShoppingCart\Index.cshtml.g.cs
 D:\Programming\learning_dotnet\Introduction to ASP.NET\PotteryWebShop\PotteryWebShop\obj\Debug\netcoreapp3.1\PotteryWebShop.csproj.CoreCompileInputs.cache
 D:\Programming\learning_dotnet\Introduction to ASP.NET\PotteryWebShop\PotteryWebShop\obj\Debug\netcoreapp3.1\PotteryWebShop.MvcApplicationPartsAssemblyInfo.cs
 D:\Programming\learning_dotnet\Introduction to ASP.NET\PotteryWebShop\PotteryWebShop\obj\Debug\netcoreapp3.1\PotteryWebShop.MvcApplicationPartsAssemblyInfo.cache
-D:\Programming\learning_dotnet\Introduction to ASP.NET\PotteryWebShop\PotteryWebShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Carousel.cshtml.g.cs
+D:\Programming\learning_dotnet\Introduction to ASP.NET\PotteryWebShop\PotteryWebShop\bin\Debug\netcoreapp3.1\NLog.dll
+D:\Programming\learning_dotnet\Introduction to ASP.NET\PotteryWebShop\PotteryWebShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\ShoppingCartSummary\Default.cshtml.g.cs
+D:\Programming\learning_dotnet\Introduction to ASP.NET\PotteryWebShop\PotteryWebShop\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Components\CategoryMenu\Default.cshtml.g.cs
+D:\Programming\learning_dotnet\Introduction to ASP.NET\PotteryWebShop\PotteryWebShop\obj\Debug\netcoreapp3.1\Razor\Views\Contact\Index.cshtml.g.cs
+D:\Programming\learning_dotnet\Introduction to ASP.NET\PotteryWebShop\PotteryWebShop\obj\Debug\netcoreapp3.1\Razor\Views\Order\Checkout.cshtml.g.cs
+D:\Programming\learning_dotnet\Introduction to ASP.NET\PotteryWebShop\PotteryWebShop\obj\Debug\netcoreapp3.1\Razor\Views\Order\CheckoutComplete.cshtml.g.cs
